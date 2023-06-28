@@ -1,23 +1,29 @@
-ul {
+.listnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   /* overflow: hidden; */
   text-align: center;
-  background-color: #dddddd;
+  background-color:white;
 }
 
-li {
+.listdown {
+list-style-type: circle;
+}
+
+.listele {
  
   display:inline-block;
   margin: 0;
 }
 
-li a {
+a {
+
   display: block;
   padding: 8px;
 
 }
+
   #centermain {
     font: "Times New Roman", Times, serif;
     text-align: center;
@@ -31,4 +37,31 @@ a{
   /* mouse over link */
 a:hover {
   color: yellowgreen;
+}
+
+.background{
+  background-color: gold;
+}
+
+#AIMG{
+  position:absolute;
+  top:0px;
+  left: 0px;
+  
+}
+#BIMG{
+  position:absolute;
+  top:300px
+
+  
+}
+#CIMG{
+  position:absolute;
+  top: 600px;
+ 
+}
+
+#position{
+  position: relative;
+  color: blue;
 }
